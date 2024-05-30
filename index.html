@@ -12,7 +12,7 @@
         <div class="encabezado">
             <h1 class="titulo-encabezado">Dojonary</h1>
             <input type="text" value="Search" placeholder="Search" class="input">
-            <button type="submit" class="boton-loggear">Login</button>
+            <button type="submit" class="boton-loggear" onclick="botonLoggear(this)">Login</button>
         </div>
     </header>
     <div class="main">
@@ -25,7 +25,7 @@
                         <p class="texto-acepcion">Plural:</p>
                         <p class="texto-acepcion-sub">ninjas</p>
                     </div>
-                    <button class="boton-acepcion">13 likes</button>
+                    <button class="boton-acepcion"onclick="alerta()" >13 likes</button>
                 </div>
                 <div class="asep1-col-der">
                     <p class="texto-acepcion1">A practitioner skilled in the <a href="#">Japanese</a> art of <a
@@ -40,7 +40,7 @@
                         <p class="texto-acepcion">Plural:</p>
                         <p class="texto-acepcion-sub">ninjas</p>
                     </div>
-                    <button class="boton-acepcion">37 likes</button>
+                    <button class="boton-acepcion" onclick="alerta()">37 likes</button>
                 </div>
                 <div class="asep2-col-der">
                     <p class="texto-acepcion2">A <a href="#">programmer</a> who breaks down problems with <a
@@ -52,10 +52,12 @@
             <div class="add-definicion">
                 <h4 class="texto-definicion">Dojonary is defined by<p class="texto-definicion1">YOU</p>
                 </h4>
-                <button type="submit" class="boton-add-definicion">Add Definition</button>
+                <button type="submit" class="boton-add-definicion" onclick="removerAddBoton(this)" >Add Definition</button>
             </div>
         </div>
     </div>
+
+    <script src="./js/index.js"></script>
 </body>
 
 </html>

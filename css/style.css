@@ -6,7 +6,8 @@ body{
     margin: 0 auto;
     padding: 0;
 }
-    
+  /* Encabezados */
+
 .encabezado{
     display: flex;
     flex-direction: row;
@@ -30,6 +31,7 @@ body{
     margin-left: 80px;
     margin-right: 80px;
     border: 2px solid rgb(65, 63, 63);
+    color: gray;
 }
 
 .boton-loggear{
@@ -46,6 +48,7 @@ body{
     font-size: 15px;
     border: 2px solid rgb(0, 0, 0);
 }
+/* Cuadros de Acepciones */
 
 .acepcion-1,.acepcion-2{
     display: flex;
@@ -137,16 +140,14 @@ body{
     margin: 0;
     padding: 0;
     display: flex;
-    margin-left: 10px;
-
-    
+    margin-left: 10px;  
 }
 
 .texto-definicion1{
     font-size: 28px;
     display: flex;
     margin-right: 35px;
-    align-items: flex-end;    
+    align-items: flex-end;      
 }
 
 .boton-add-definicion{
